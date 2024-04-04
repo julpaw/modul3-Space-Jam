@@ -1,5 +1,6 @@
 import csv
 
+
 # The name of the player is in the second column (index 1).
 NAME_INDEX = 1
 
@@ -72,5 +73,5 @@ f.write("\t}\n")
 # Write the closing bracket to the JSON object to the file.
 f.write("]")
 
-# Close the file.
+
 f.close()
